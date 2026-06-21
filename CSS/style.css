@@ -7,45 +7,45 @@
    ============================================ */
 
 :root {
-    /* Color Palette */
-    --color-primary: #121212;
-    /* Deep charcoal/off-black */
-    --color-secondary: #1a1a1a;
-    /* Slightly lighter black */
-    --color-accent: #0052FF;
-    /* Electric blue - primary CTA */
-    --color-accent-alt: #00FF41;
-    /* Volt green - secondary accent */
+    /* Color Palette (updated) */
+    --color-primary: #0B1320;
+    /* Deep navy */
+    --color-secondary: #111B2E;
+    --color-accent: #7C3AED;
+    /* Purple CTA */
+    --color-accent-alt: #22C55E;
+    /* Green secondary */
     --color-white: #FFFFFF;
-    --color-light-gray: #f5f5f5;
-    --color-dark-gray: #666666;
-    --color-border: #e0e0e0;
+    --color-light-gray: #F3F4F6;
+    --color-dark-gray: #4B5563;
+    --color-border: #E5E7EB;
 
     /* Typography */
-    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --font-size-xxl: 3.5rem;
-    --font-size-xl: 2.5rem;
-    --font-size-lg: 1.75rem;
-    --font-size-md: 1.125rem;
+    --font-primary: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    --font-size-xxl: 3.3rem;
+    --font-size-xl: 2.3rem;
+    --font-size-lg: 1.7rem;
+    --font-size-md: 1.1rem;
     --font-size-sm: 1rem;
-    --font-size-xs: 0.875rem;
+    --font-size-xs: 0.9rem;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
-    --spacing-md: 1.5rem;
-    --spacing-lg: 2rem;
-    --spacing-xl: 3rem;
-    --spacing-xxl: 4rem;
+    --spacing-md: 1.4rem;
+    --spacing-lg: 2.2rem;
+    --spacing-xl: 3.2rem;
+    --spacing-xxl: 4.2rem;
 
     /* Effects */
-    --transition-fast: 0.15s ease-out;
-    --transition-normal: 0.3s ease-out;
-    --transition-slow: 0.5s ease-out;
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
-    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.15);
-    --shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.2);
+    --transition-fast: 0.12s ease-out;
+    --transition-normal: 0.25s ease-out;
+    --transition-slow: 0.45s ease-out;
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 12px 28px rgba(0, 0, 0, 0.14);
+    --shadow-lg: 0 18px 55px rgba(124, 58, 237, 0.22);
 }
+
 
 * {
     margin: 0;
