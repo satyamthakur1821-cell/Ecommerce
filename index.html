@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium e-commerce platform with curated products">
+    <title>One8store | Premium Product Gallery</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav>
+            <div class="logo">
+                One8store<span>.</span>
+            </div>
+            <div class="nav-right">
+                <button class="cart-link" onclick="window.location.href='cart.html'">
+                    CART
+                    <span class="cart-badge" id="cart-badge">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SEARCH & FILTER CONTROLS -->
+    <section class="controls-section">
+        <div class="controls">
+            <input
+                type="text"
+                id="search"
+                class="search-input"
+                placeholder="Search by product name or category..."
+                aria-label="Search products"
+            >
+
+            <select id="sort" class="sort-dropdown" aria-label="Sort products">
+                <option value="">Sort By</option>
+                <option value="lowToHigh">Price: Low to High</option>
+                <option value="highToLow">Price: High to Low</option>
+                <option value="rating">Rating: High to Low</option>
+            </select>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="electronics">Electronics</button>
+                <button class="filter-btn" data-category="jewelery">Jewelry</button>
+                <button class="filter-btn" data-category="men's clothing">Men</button>
+                <button class="filter-btn" data-category="women's clothing">Women</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN PRODUCT GALLERY -->
+    <main class="products-section">
+        <div id="products" role="main" aria-label="Product gallery"></div>
+    </main>
+
+    <!-- LOADING INDICATOR -->
+    <div id="loading" style="display: none; text-align: center; padding: 2rem; font-size: 1.125rem; color: #666;">
+        Loading products...
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="./JS/product.js"></script>
+</body>
+</html>
